@@ -9,4 +9,4 @@ const dataConnetion: DataSourceOptions = {
   database: 'myprints',
 };
 
-const Connection = new DataSource(dataConnetion);
+export const Connection = new DataSource(dataConnetion);
